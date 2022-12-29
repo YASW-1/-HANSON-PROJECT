@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Photography images</title>
+   
+</head>
+<style>
+.image-container
+{
+position:relative;
+width:180%
+max width:1000px;
+text-align: center;
+  color: white;
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 25%;
+  transform: translate(-50%, -50%);
+	    font-size: 3.5em;
+
+}
+.centereddown {
+  position: absolute;
+  top: 60%;
+  left: 25%;
+  transform: translate(-50%, -50%);
+font-size: 4.5em;
+}
+.image-container:hover .overlay
+{
+opacity:1;
+}
+img {
+  width: 100%;
+  height: auto;
+}
+.textclass{
+text-align:center;
+color:black;
+}
+</style>
+<body>
+    <div>
+
+        <div id="images">
+    <div class="image-container">
+        <img src="https://www.indianhealthyrecipes.com/wp-content/uploads/2019/02/chicken-biryani-recipe-500x375.jpg" alt="pic1" id="titleImage" >
+<h2 class="centered" id="titleName">SOME OF MY FAV</h2>
+</br>
+</br>
+<h1 class="centereddown">FOODS</h1>
+    </div>
+<div class="image-container">
+<h3 class="textclass" id="favFood1">BISMILLAH BATH</h3>
+<P class="textclass" id="foodDescription">This Dish originates in the state of karnataka and took 100 years for the dish to come out from the palace.</p>
+
+        <img src="https://www.archanaskitchen.com/images/archanaskitchen/0-Archanas-Kitchen-Recipes/Mixed_Vegetable_Sambar_Rice-5.jpg" alt="pic1" id="favFoodImage1" >
+
+    </div>
+<div class="image-container">
+<h3 class="textclass" id="favFood2">Pasta</h3>
+<P class=" textclass" id="food description2"> Pasta has been very popular in Italy and has also been eaten in many parts of Asia for a long time.</p>
+
+        <img src="https://static.guim.co.uk/sys-images/Guardian/Pix/red/blue_pics/2009/04/14/pasta460.gif" alt="pic2" id="favFoodImage2" >
+
+   </div>
+<div class="image-container">
+<h3class="textclass" id="favFood3">Chicken 65</h3>
+<P class=" textclass" id="food description3">Chicken 65 is a most popular dish and favourite dish of everyone. </p>
+
+        <img src="https://recipesofhome.com/wp-content/uploads/2020/08/chicken-65-recipe.jpg" alt="pic3"id="favFoodImage3">
+
+   </div>
+   
+   
+</div>
+</div> 
+</body>

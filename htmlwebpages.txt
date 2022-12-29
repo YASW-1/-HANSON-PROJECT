@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navigate </title>
+    <link rel="stylesheet" href="./style.css">
+
+</head>
+<style>
+.image-container
+{
+position:relative;
+width:180%
+max width:1000px;
+text-align: center;
+  color: black;
+}
+.image-container:hover .overlay
+{
+opacity:1;
+}
+img {
+  width: 20%;
+  height: auto;
+}
+.centered {
+  position: absolute;
+  top: 120%;
+  left: 15%;
+ font-size: 3.5em;
+}
+.centereddown {
+ color:black;
+font-size: 0.5em;
+text-align: left;
+}
+.displaytext
+{
+   color:black;
+font-size: 1.5em;
+text-align: left;
+}
+table, th, td {
+  border:1px solid black;
+}
+</style>
+<body>
+   <div>
+<h1 id="table-heading" class="centereddown">TABLES AND LISTS</h1>
+<table id="courseTable">
+  <tr>
+    <td class="centereddown">Roll no</td>
+    <td class="centereddown">Name</td>
+    <td class="centereddown">course</td>
+	<td class="centereddown">department</td>
+  </tr>
+<tr>
+    <td class="displaytext">101</td>
+    <td class="displaytext">ABCD</td>
+    <td class="displaytext">Computer</td>
+	<td class="displaytext">CS</td>
+  </tr>
+<tr>
+    <td class="displaytext">101</td>
+    <td class="displaytext">ABCD</td>
+    <td class="displaytext">Computer</td>
+	<td class="displaytext">CS</td>
+  </tr>
+<tr>
+    <td class="displaytext">101</td>
+    <td class="displaytext">ABCD</td>
+    <td class="displaytext">Computer</td>
+	<td class="displaytext">CS</td>
+  </tr>
+
+</table>
+<h2 id="coursesHeading">No of Courses available</h2>
+<ul id="courseList">
+  <li>CS</li>
+  <li>Electronics</li>
+  <li>Mechanical</li>
+<li>AI</li>
+</ul> 
+<h1 id="imageHeading">Image Map</h1>
+<img src="https://resource.logitech.com/w_1200,h_630,c_limit,q_auto,f_auto,dpr_1.0/d_transparent.gif/content/dam/logitech/en/plp/workspace-solutions/personal-workspace-solutions-og-image.jpg?v=1" alt="Workplace" usemap="#workmap" width="50" height="50">
+
+<map name="workmap">
+  <area shape="rect"  alt="Computer" >
+ </map>
+
+        <form method="get" id="login-form" class="centered">
+  <label for="fname" class="centereddown">Name:</label>
+  <input type="text" id="fname" name="fname" ><br>
+<label for="pname" class="centereddown">Password:</label>
+  <input type="password" id="pname" name="password" ><br>
+<label for="email" class="centereddown">Email:</label>
+  <input type="email" id="email" name="email" ><br>
+<label for="course" class="centereddown">Courses:</label>
+<select name="courses" id="course" >
+  <option value="Computer">Computer</option>
+  <option value="ECE">ECE</option>
+  <option value="EEE">EEE</option>
+  <option value="IT">IT</option>
+</select> 
+</br>
+<label for="address" class="centereddown">Address:</label>
+<input type="textarea" id="address" name="address" class="displaytext"><br>
+<label for="Country" class="centereddown">Country:</label>
+<input list="Countries" name="Country" id="countries">
+
+<datalist id="Countries">
+  <option value="India">
+  <option value="Afghanistan">
+  <option value="Pakistan">
+  <option value="US">
+  <option value="UK">
+</datalist>
+</br>
+ <button type="button" id="submit_btn">SUBMIT</button>
+</form>
+<h1 id="frameHeading">FRAMES IN HTML</h1>
+
+<iframe id="frameImage1" src="https://resource.logitech.com/w_1200,h_630,c_limit,q_auto,f_auto,dpr_1.0/d_transparent.gif/content/dam/logitech/en/plp/workspace-solutions/personal-workspace-solutions-og-image.jpg?v=1" height="200" width="300" title="Iframe Example"></iframe>
+<iframe id="frameImage2" src="https://resource.logitech.com/w_1200,h_630,c_limit,q_auto,f_auto,dpr_1.0/d_transparent.gif/content/dam/logitech/en/plp/workspace-solutions/personal-workspace-solutions-og-image.jpg?v=1" height="200" width="300" title="Iframe Example"></iframe>
+
+</div>
+
+</body>
+
+</html>

@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Photography images</title>
+    <link rel="stylesheet" href="./style.css">
+<title id="TitleName">FRIENDS BOOK</title>
+</head>
+<style>
+.image-container
+{
+position:relative;
+width:180%
+max width:1000px;
+text-align: center;
+  color: black;
+}
+.image-container:hover .overlay
+{
+opacity:1;
+}
+img {
+  width: 100%;
+  height: auto;
+}
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 25%;
+  transform: translate(-50%, -50%);
+	    font-size: 3.5em;
+
+}
+.centereddown {
+ color:white;
+font-size: 0.5em;
+text-align: center;
+}
+.displaytext
+{
+    height:100px;
+    font-size:14pt;
+}
+</style>
+<body>
+    <div>
+
+        <div id="images">
+    <div class="image-container">
+        <img src="https://thumbs.dreamstime.com/b/happy-group-diverse-people-friends-family-team-together-standing-holding-hands-celebrating-success-water-reflection-sunset-49022123.jpg" alt="pic1" id="backgroundImage" >
+<form method="get" id="yourName" class="centered">
+  <label for="textBox" class="centereddown">your name:</label>
+  <input type="text" id="textBox" name="fname" ><br>
+ <label id="field1" class="centereddown" for="textBox1">1.A message for me!</label>
+<br>
+<input type="text" id="textBox1" class="displaytext" name="messagename"  ><br>
+<label class="centereddown" for="textBox2">2.A nick name for me!</label>
+<br>
+<input type="text" id="textBox2" name="nickname" class="displaytext" ><br>
+<label class="centereddown" for="yesMayBe">3.Have you ever lied to me?</label></br>
+<input type="radio" id="yesMayBe" name="fav_language" >
+  <label class="displaytext">Yes</label>
+<input type="radio" id="yesMayBe" name="fav_language" >
+	<label class="displaytext">Maybe</label>
+</br>
+ <label class="centereddown" for="happyirri">4.How do you feel when you talk to me?</label></br>
+<input type="radio" id="happyirri" name="fav_language" >
+  <label class="displaytext">Happy</label>
+<input type="radio" id="happyirri" name="fav_language" >
+	<label class="displaytext">Irritated</label><br>
+<label class="centereddown" for="yesno">5.Do you like to go on a roadtrip with me?</label></br>
+<input type="radio" id="yesno" name="fav_language" >
+  <label class="displaytext">Happy</label>
+<input type="radio" id="yesno" name="fav_language" >
+	<label class="displaytext">Irritated</label></br>
+<label class="centereddown" for="bestColour">6.Best color that suites me ?</label></br>
+ <input type="checkbox" id="bestColour" name="red" value="Red" >
+  <label for="bestColour" class="displaytext"> red</label>
+  <input type="checkbox" id="bestColour" name="black" value="black">
+  <label for="bestColour" class="displaytext">black</label>
+ <input type="checkbox" id="bestColour" name="white" value="white">
+  <label for="bestColour" class="displaytext">white</label>
+<input type="checkbox" id="bestColour" name="blue" value="blue">
+  <label for="bestColour" class="displaytext">blue</label><br>
+ <label id="field3" class="centereddown" for="textBox3">7.The best moment in our friendship?</label>
+<br>
+<input type="text" id="textBox3" class="displaytext" name="message"  ><br>
+
+
+
+</form>
+</div>
+
+
+    </div>
+
+    
+</div>
+
+</body>
+
+</html>
